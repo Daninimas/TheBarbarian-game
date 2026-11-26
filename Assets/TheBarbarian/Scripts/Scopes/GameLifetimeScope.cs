@@ -1,3 +1,5 @@
+using TheBarbarian.Scripts.Managers;
+using TheBarbarian.Scripts.Managers.SceneController;
 using VContainer;
 using VContainer.Unity;
 

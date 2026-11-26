@@ -1,20 +1,20 @@
 using System;
-using System.Collections;
 using Cysharp.Threading.Tasks;
+using TheBarbarian.Scripts.Tools;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TheBarbarian.Scripts.Tools;
 
 /// <summary>
 /// Manages game scenes transitions.
 /// </summary>
 
-namespace TheBarbarian.Scripts
+namespace TheBarbarian.Scripts.Managers.SceneController
 {
     public class SceneController
     {
         public enum SceneName
         {
+            Initial,
             MainMenu,
             ActionPhase,
             Intermediate
@@ -50,7 +50,7 @@ namespace TheBarbarian.Scripts
         
         public SceneController()
         {
-            CurrentScene = SceneName.MainMenu;
+            CurrentScene = SceneName.Initial;
         }
         
         #endregion

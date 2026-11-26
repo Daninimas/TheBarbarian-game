@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TheBarbarian/Scenes/MainMenu.unity
+    path: Assets/TheBarbarian/Scenes/Initial.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/TheBarbarian/Scenes/MainMenu.unity
+    guid: 1294d83860644644885c7f369427e616
   - enabled: 1
     path: Assets/TheBarbarian/Scenes/ActionPhase.unity
     guid: cbf02e5a1e202924f98af13f9d1d0131
